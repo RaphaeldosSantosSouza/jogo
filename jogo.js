@@ -359,6 +359,7 @@ Telas.GAME_OVER = {
   desenha() {//funcao para desenhar a tela de gameover
     mensagemGameOver.desenha();
   },
+  atualiza(){},
   click() {//funcao para detectar o click e ir para tela de inicio
     mudaParaTela(Telas.INICIO);
   }
